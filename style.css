@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:wght@100;400&display=swap');
+
+/* Geral */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+}
+
+button {
+    width: 215px;
+    height: 55px;
+    border-radius: 25px;
+    margin-top: 45px;
+    font-size: 33px;
+    color: black;
+    background: linear-gradient(90deg, #A18CD1 0%, #FBC2E8 100%);
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #b9a9f7;
+}
+
+
+/*Header*/
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 165px;
+    height: auto;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav li:hover {
+    color: rgb(190, 187, 187);
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/*Main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+main h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*Form*/
+
+form {
+    width: 70%;
+}
+
+.formCta {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formCta label {
+    width: 90%;
+    font-size: 33px;
+    font-weight: 400;
+    /* padding-left: 15%; */
+    /* align-items: flex-start; */
+}
+
+.formCta input {
+    width: 90%;
+    height: 53px;
+    border-radius: 25px;
+    background-color: #7F7F7F;
+    border: none;
+    margin-top: 10px;
+    align-self: center;
+    font-size: 33px;
+    color: white;
+    padding-left: 20px;
+
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 27px;
+}
+
+footer h2 {
+    width: 95%;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer button {
+    width: 366px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:600px) {
+    main h2 {
+        font-size: 23px;
+    }
+
+    .formCta input {
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .formCta label {
+        width: 100%;
+        font-size: 23px;
+    }
+
+    main h1 {
+        font-size: 35px;
+    }
+
+    nav li {
+        font-size: 20px;
+    }
+
+    footer h2 {
+        font-size: 23px;
+    }
+
+    button {
+        width: auto;
+        font-size: 25px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    footer button {
+        width: auto;
+        font-size: 25px;
+        padding: 0px 20px 0px 20px;
+    }
+
+}
+
+
+
+
